@@ -1,0 +1,27 @@
+ pipeline{
+	
+	agent any  
+	stages {
+		stage('Build'){ 
+			steps{
+			//tasks 
+			}
+		}
+		stage('Deploy'){
+			steps{
+			//tasks 
+			}
+		}
+		stage('test'){ 
+			steps{
+			//tasks 
+			}
+		}
+		stage('release'){
+			steps{
+			//tasks
+			}
+		}
+	}
+
+ }

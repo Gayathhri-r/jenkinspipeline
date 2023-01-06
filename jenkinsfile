@@ -4,22 +4,22 @@
 	stages {
 		stage('Build'){ 
 			steps{
-			//tasks 
+			  echo "----Building Project-------"
 			}
 		}
 		stage('Deploy'){
 			steps{
-			//tasks 
+			echo "----Deploying Project-------"
 			}
 		}
 		stage('test'){ 
 			steps{
-			//tasks 
+			echo "----Testing Project-------"
 			}
 		}
 		stage('release'){
 			steps{
-			//tasks
+			echo "----Releasing Project-------"
 			}
 		}
 	}
